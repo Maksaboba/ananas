@@ -1,0 +1,124 @@
+.one{
+    font-size: 48px;
+    color: rgb(0, 0, 0);
+}
+.two{
+    font-size: 48px;
+    color: rgb(0, 0, 0);
+}
+h3 {
+    font-size: 48px;
+}
+body {
+    background-image: url('https://img.freepik.com/premium-photo/gradient-blue-purple-green-soft-plush-feather-texture-background-fluffy-feather-grass-ocean-theme_586361-118.jpg'); /* Устанавливает фоновое изображение */
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;  
+}
+.no-style-link {
+    text-decoration: none; 
+    color: inherit; 
+}
+.telegram-logo img {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+}
+.tooltip {
+    position: relative; /* Устанавливает относительное позиционирование для последующего абсолютного позиционирования подсказки */
+    display: inline-block; /* Позволяет элементу оставаться в строке, но учитывать размеры содержимого */
+}
+
+/* Стилизация всплывающей подсказки */
+.tooltip .tooltiptext {
+    visibility: hidden; /* По умолчанию скрываем подсказку */
+    width: 120px; /* Задаем ширину подсказки */
+    background-color: rgb(57, 137, 201, 0.9); /* Цвет фона подсказки */
+    color: #fff; /* Цвет текста подсказки */
+    text-align: center; /* Выравнивание текста по центру */
+    padding: 5px; /* Внутренний отступ вокруг текста */
+    border-radius: 5px; /* Закругление углов подсказки */
+    position: absolute; /* Абсолютное позиционирование относительно .tooltip */
+    z-index: 1; /* Поверх других элементов */
+    bottom: 125%; /* Размещаем подсказку выше изображения */
+    left: 50%; /* Смещаем подсказку к центру */
+    transform: translateX(-50%); /* Корректируем позицию, чтобы центрировать подсказку */
+    opacity: 0; /* Делаем подсказку прозрачной */
+    transition: opacity 0.7s; /* Добавляем плавное появление подсказки */
+}
+
+/* При наведении на контейнер .tooltip делаем подсказку видимой */
+.tooltip:hover .tooltiptext {
+    visibility: visible; /* Делаем подсказку видимой */
+    opacity: 1; /* Устанавливаем полную непрозрачность */
+}
+
+
+.button {
+    position: relative; /* Устанавливает относительное позиционирование для последующего абсолютного позиционирования подсказки */
+    display: inline-block; /* Позволяет элементу оставаться в строке, но учитывать размеры содержимого */
+}
+
+/* Стилизация всплывающей подсказки */
+.button .text {
+    visibility: hidden; /* По умолчанию скрываем подсказку */
+    width: 1200px; /* Задаем ширину подсказки */
+    background-color: rgba(0, 0, 0, 0.9); /* Цвет фона подсказки */
+    color: #fff; /* Цвет текста подсказки */
+    text-align: center; /* Выравнивание текста по центру */
+    padding: 5px; /* Внутренний отступ вокруг текста */
+    border-radius: 5px; /* Закругление углов подсказки */
+    position: absolute; /* Абсолютное позиционирование относительно .tooltip */
+    z-index: 1; /* Поверх других элементов */
+    bottom: 125%; /* Размещаем подсказку выше изображения */
+    left: 50%; /* Смещаем подсказку к центру */
+    transform: translateX(-50%); /* Корректируем позицию, чтобы центрировать подсказку */
+    opacity: 0; /* Делаем подсказку прозрачной */
+    transition: opacity 0.7s; /* Добавляем плавное появление подсказки */
+}
+
+/* При наведении на контейнер .tooltip делаем подсказку видимой */
+.button:hover .text {
+    visibility: visible; /* Делаем подсказку видимой */
+    opacity: 1; /* Устанавливаем полную непрозрачность */
+}
+
+.article-container {
+    text-align: center;
+    margin-top: 30px;
+    }
+
+.button {
+background-color: #ffcc00;
+color: black;
+border: none;
+padding: 5px 20px 2px 20px;
+font-size: 18px;
+cursor: pointer;
+border-radius: 5px;
+margin-bottom: 5px;
+}
+
+.sicret{
+    filter:blur(10px);
+    transition: all 0.5s;
+}
+
+.sicret:hover{
+    filter:blur(0px);
+    transition: all 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
